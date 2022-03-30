@@ -4,7 +4,7 @@
    justify-content: center; /*justify-content = eixoX*/
    align-items: center; /*align-items = eixoY*/
    flex-wrap: wrap; /*"quebra a linha"*/
-   width: 100%;
+   width: 80%;
    margin: auto;
 }
 
@@ -15,7 +15,6 @@
 
 .conteudo-sobre img{
    width: 30%;
-   margin: 0 40%;
 }
 
 .historico{
