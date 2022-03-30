@@ -18,3 +18,8 @@
 .texto{
    width: 40%;
 }
+
+.caixa{
+   width: 90%;
+   margin: auto;
+}
