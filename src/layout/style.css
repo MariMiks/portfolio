@@ -8,7 +8,6 @@
    border-color: initial;
    border-image: initial;
    border-width: 0px;
-   list-style: none;
    text-size-adjust: 100%;
    text-rendering: optimizeLegibility;
    -webkit-font-smoothing: antialiased;
@@ -54,12 +53,21 @@ header{
    transform: translateY(-90%);
 }
 
+.logotipo-miks{
+   display: block;
+   width: 250px;
+   height: 250px;
+   margin: auto;
+   border-radius: 100%;
+   transform: translateY(-90%);
+}
 
 /*botões do menu*/
 header button{
    padding: 30px 34px;
    background-color:#E4BAFE;
    border-radius: 15px;
+   cursor: pointer;
 }
 
 #projeto{
@@ -74,35 +82,8 @@ header button{
 }
 
 
-/*conteudo-sobre*/
-.conteudo-sobre{
-   display: flex;
-   justify-content: center; /*justify-content = eixoX*/
-   align-items: center; /*align-items = eixoY*/
-   flex-wrap: wrap; /*"quebra a linha"*/
-   width: 100%;
-   margin: auto;
-}
-
-.sobre-mim{
-   width: 60%;
-   text-align: justify;
-}
-
-.conteudo-sobre img{
-   width: 30%;
-   margin: 0 40%;
-}
-
-
-.historico{
-   width: 80%;
-   align-self: flex-end;
-   text-align: center;
-}
 
 /*contatos*/
-
 .contatos{
    display: flex;
    justify-content: space-between;
@@ -113,9 +94,6 @@ header button{
    width: 15%;
    align-content: flex-end;
 }
-
-
-
 
 /*footer*/
 .rodape{

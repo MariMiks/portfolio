@@ -1,0 +1,25 @@
+/*conteudo-sobre*/
+.conteudo-sobre{
+   display: flex;
+   justify-content: center; /*justify-content = eixoX*/
+   align-items: center; /*align-items = eixoY*/
+   flex-wrap: wrap; /*"quebra a linha"*/
+   width: 100%;
+   margin: auto;
+}
+
+.sobre-mim{
+   width: 60%;
+   text-align: justify;
+}
+
+.conteudo-sobre img{
+   width: 30%;
+   margin: 0 40%;
+}
+
+.historico{
+   width: 80%;
+   align-self: flex-end;
+   text-align: center;
+}
