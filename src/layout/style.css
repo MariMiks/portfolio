@@ -1,7 +1,6 @@
 /*reset do navegador*/
 * {
-   margin: 0px;
-   padding: 0px;
+   padding: 0%;
    box-sizing: border-box;
    appearance: none;
    border-style: initial;
@@ -11,17 +10,15 @@
    text-size-adjust: 100%;
    text-rendering: optimizeLegibility;
    -webkit-font-smoothing: antialiased;
-   -moz-osx-font-smoothing: grayscale;
 }
 
 
 /*imagem de fundo*/
 body{
    position: absolute;
-   background-color: #c27cee, 0.4;
    background: url("../img/background-portfolio.png");
    background-size: cover;
-   display: block;
+   width: 100%;
 }
 
 

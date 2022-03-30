@@ -1,0 +1,20 @@
+.paragrafo{
+   display: flex;
+   width: 90%;
+   margin: auto;
+   justify-content: center;
+}
+
+.prox-img{
+   width: 40%;
+   text-align: center;
+   align-self: center;
+}
+
+.prox-img p{
+   font-weight: bold;
+}
+
+.texto{
+   width: 40%;
+}
