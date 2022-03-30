@@ -1,0 +1,125 @@
+/*reset do navegador*/
+* {
+   margin: 0px;
+   padding: 0px;
+   box-sizing: border-box;
+   appearance: none;
+   border-style: initial;
+   border-color: initial;
+   border-image: initial;
+   border-width: 0px;
+   list-style: none;
+   text-size-adjust: 100%;
+   text-rendering: optimizeLegibility;
+   -webkit-font-smoothing: antialiased;
+   -moz-osx-font-smoothing: grayscale;
+}
+
+
+/*imagem de fundo*/
+body{
+   position: absolute;
+   background-color: #c27cee, 0.4;
+   background: url("../img/background-portfolio.png");
+   background-size: cover;
+   display: block;
+}
+
+
+/*container*/
+section{
+   display: block;
+   position: absolute;
+   background-color: #f8f8f8;
+   width: 1028px;
+   height: auto;
+   margin: 150px;
+   border-radius: 50px;
+}
+
+
+/*cabeçalho*/
+header{
+   max-height: 200px;
+   border-radius: 50px;
+}
+
+.foto-perfil{
+   display: block;
+   width: 250px;
+   height: 250px;
+   margin: auto;
+   border-radius: 100%;
+   border: 8px solid #f8f8f8;
+   transform: translateY(-90%);
+}
+
+
+/*botões do menu*/
+header button{
+   padding: 30px 34px;
+   background-color:#E4BAFE;
+   border-radius: 15px;
+}
+
+#projeto{
+   margin-top: 50px;
+   margin-left: 141px;
+}
+
+#hobby{
+   float: right;
+   margin-top: 50px;
+   margin-right: 144px;
+}
+
+
+/*conteudo-sobre*/
+.conteudo-sobre{
+   display: flex;
+   justify-content: center; /*justify-content = eixoX*/
+   align-items: center; /*align-items = eixoY*/
+   flex-wrap: wrap; /*"quebra a linha"*/
+   width: 100%;
+   margin: auto;
+}
+
+.sobre-mim{
+   width: 60%;
+   text-align: justify;
+}
+
+.conteudo-sobre img{
+   width: 30%;
+   margin: 0 40%;
+}
+
+
+.historico{
+   width: 80%;
+   align-self: flex-end;
+   text-align: center;
+}
+
+/*contatos*/
+
+.contatos{
+   display: flex;
+   justify-content: space-between;
+   flex-direction: row;
+}
+
+.contatos img{
+   width: 15%;
+   align-content: flex-end;
+}
+
+
+
+
+/*footer*/
+.rodape{
+   color: antiquewhite;
+   margin-top: 1090px;
+   margin-left: 600px;
+}
