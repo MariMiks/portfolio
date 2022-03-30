@@ -1,0 +1,15 @@
+.grupo{
+   width: 70%;
+   margin: auto;
+   padding: auto;
+}
+
+.grupo img{
+   width: 20%;
+   border-radius: 100%;
+   transform: translateX(200%);
+}
+
+.grupo h1{
+   text-align: center;
+}
