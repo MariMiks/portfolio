@@ -20,7 +20,7 @@ body{
    flex-direction: column;
    justify-content: center;
    align-items: center;
-   background: url("../img/background-portfolio.png");
+   background: url("../static/img/background-portfolio.png");
    background-size: cover;
 }
 
