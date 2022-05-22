@@ -4,7 +4,7 @@
    justify-content: center; /*justify-content = eixoX*/
    align-items: center; /*align-items = eixoY*/
    flex-wrap: wrap; /*"quebra a linha"*/
-   width: 80%;
+   width: 95%;
    margin: auto;
 }
 
@@ -19,6 +19,5 @@
 
 .historico{
    width: 80%;
-   align-self: flex-end;
    text-align: center;
 }

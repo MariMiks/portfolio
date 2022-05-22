@@ -1,19 +1,27 @@
-.grupo{
+.container{
    display: flex;
-   width: 70%;
-   margin: auto;
-   padding: auto;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   
 }
 
-.grupo img{
+.partes{
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   width: 90%;
+   margin: 1rem;
+   padding: 1rem;
+   background-color: #E4BAFE;
+   border-radius: 1rem;
+}
+
+.partes img{
    width: 20%;
    border-radius: 100%;
 }
 
-.texto-mahikari{
-   text-align: left;
-}
-
-.texto-interact{
-   text-align: right;
+.texto{
+   width: 50%;
 }

@@ -1,6 +1,7 @@
 /*reset do navegador*/
 * {
    padding: 0%;
+   margin: 0;
    box-sizing: border-box;
    appearance: none;
    border-style: initial;
@@ -13,88 +14,89 @@
 }
 
 
-/*imagem de fundo*/
+/*container*/
 body{
-   position: absolute;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
    background: url("../img/background-portfolio.png");
    background-size: cover;
-   width: 100%;
 }
 
 
-/*container*/
+/*seção de conteúdo*/
 section{
-   display: block;
-   position: absolute;
    background-color: #f8f8f8;
-   width: 1028px;
-   height: auto;
-   margin: 150px;
+   width: 80%;
    border-radius: 50px;
+   margin-top: 9rem;
 }
 
-
-/*cabeçalho*/
-header{
-   max-height: 200px;
-   border-radius: 50px;
+/* menu */
+.menu{
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
 }
 
-.foto-perfil{
-   display: block;
-   width: 250px;
-   height: 250px;
-   margin: auto;
-   border-radius: 100%;
-   border: 8px solid #f8f8f8;
-   transform: translateY(-90%);
-}
-
-.logotipo-miks{
-   display: block;
-   width: 250px;
-   height: 250px;
-   margin: auto;
-   border-radius: 100%;
-   transform: translateY(-90%);
-}
-
-/*botões do menu*/
-header button{
-   padding: 30px 34px;
+.menu a{
+   padding: 2rem;
    background-color:#E4BAFE;
-   border-radius: 15px;
-   cursor: pointer;
+   border-radius: 1rem;
+   text-decoration: none;
+   color: black;
 }
 
-#projeto{
-   margin-top: 50px;
-   margin-left: 141px;
+.menu a:hover{
+   color: #f8f8f8;
+   background-color: #9a31db;
 }
 
-#hobby{
-   float: right;
-   margin-top: 50px;
-   margin-right: 144px;
+#foto{
+   width: 25%;
+   padding: 0.5rem;
+   background-color: #f8f8f8;
+   border-radius: 100%;
+   transform: translateY(-50%);
 }
 
+#foto img{
+   width: 100%;
+   border-radius: 100%;
+}
 
 
 /*contatos*/
 .contatos{
-   display: flex;
-   justify-content: space-between;
-   flex-direction: row;
+   display: flex; 
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   margin-top: 5rem;
 }
 
-.contatos img{
-   width: 15%;
-   align-content: flex-end;
+.links{
+   display: flex;
+   gap: 7rem;
+}
+
+.links a{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   text-decoration: none;
+   color: black;
+   gap: 1rem;
+   margin: 0.5rem;
+}
+
+.links img{
+   width: 25%;
 }
 
 /*footer*/
 .rodape{
+   margin: 1rem;
    color: antiquewhite;
-   margin-top: 1090px;
-   margin-left: 600px;
 }

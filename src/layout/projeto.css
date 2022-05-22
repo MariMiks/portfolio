@@ -2,24 +2,31 @@
    display: flex;
    width: 90%;
    margin: auto;
+   padding: 1rem;
    justify-content: center;
+   align-items: center;
+   gap: 5rem;
 }
 
-.prox-img{
-   width: 40%;
+.paragrafo img{
+   width: 100%;
+   border-radius: 1rem;
+}
+
+.paragrafo a{
+   width: 90%;
    text-align: center;
-   align-self: center;
 }
 
-.prox-img p{
-   font-weight: bold;
-}
 
 .texto{
-   width: 40%;
+   width: 80%;
 }
 
 .caixa{
    width: 90%;
-   margin: auto;
+   margin: 2rem;
+   background-color:#E4BAFE;
+   padding: 1rem;
+   border-radius: 1rem;
 }
