@@ -5,6 +5,7 @@
    padding: 1rem;
    justify-content: center;
    align-items: center;
+   flex-direction: column;
    gap: 5rem;
 }
 
@@ -13,17 +14,25 @@
    border-radius: 1rem;
 }
 
-.paragrafo a{
-   width: 90%;
+.texto a{
    text-align: center;
 }
 
-
 .texto{
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   text-align: justify;
+   gap: 0.5rem;
    width: 80%;
 }
 
+.texto h1{
+   text-align: center;
+}
+
 .caixa{
+   text-align: center;
    width: 90%;
    margin: 2rem;
    background-color:#E4BAFE;

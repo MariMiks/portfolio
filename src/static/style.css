@@ -13,15 +13,20 @@
    -webkit-font-smoothing: antialiased;
 }
 
+/* fonte */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,300&display=swap');
+
 
 /*container*/
 body{
    display: flex;
+   position: absolute;
    flex-direction: column;
    justify-content: center;
    align-items: center;
    background: url("../static/img/background-portfolio.png");
    background-size: cover;
+   font-family: 'Roboto Flex', sans-serif;
 }
 
 
@@ -32,6 +37,7 @@ section{
    border-radius: 50px;
    margin-top: 9rem;
 }
+
 
 /* menu */
 .menu{
@@ -49,6 +55,7 @@ section{
 }
 
 .menu a:hover{
+   text-decoration: none;
    color: #f8f8f8;
    background-color: #9a31db;
 }
@@ -71,32 +78,34 @@ section{
 .contatos{
    display: flex; 
    flex-direction: column;
-   justify-content: center;
    align-items: center;
    margin-top: 5rem;
+   width: 100%;
 }
 
 .links{
    display: flex;
-   gap: 7rem;
+   flex-direction: row;
+   justify-content: space-around;
+   text-align: center;
+   width: 80%;
+   margin-top: 0.5rem;
 }
 
 .links a{
-   display: flex;
-   align-items: center;
-   justify-content: center;
    text-decoration: none;
    color: black;
    gap: 1rem;
-   margin: 0.5rem;
 }
 
-.links img{
-   width: 25%;
+.links a:hover{
+   text-decoration: none;
 }
+
 
 /*footer*/
 .rodape{
    margin: 1rem;
    color: antiquewhite;
 }
+

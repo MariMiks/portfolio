@@ -1,76 +1,135 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-   <head>
-      <meta charset="UTF-8">
-      <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <link rel="stylesheet" href="../static/style.css">
-      <link rel="stylesheet" href="../static/home.css">
-      <link rel="icon" href="../static/img/minha_logotipo-claro.png" type="image/png">
-      <title>Home</title>
-   </head>
 
-   <body>
-      <section>
-         <div class="menu">
-            <a href="/projetos">
-               PROJETOS
-            </a>
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-            <a href="/" id="foto">
-               <img src="../static/img/foto-perfil.jpeg" alt="foto-perfil">
-            </a>
+   <link rel="stylesheet" href="../static/style.css">
+   <link rel="stylesheet" href="../static/home.css">
+   <link rel="icon" href="../static/img/minha_logotipo-claro.png" type="image/png">
+   <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
 
-            <a href="/voluntariados">
-               VOLUNTARIADO
-            </a>
+   <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+   <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+   <title>Home</title>
+</head>
+
+<body>
+   <section>
+      <div class="menu">
+         <a href="/projetos">
+            PROJETOS
+         </a>
+
+         <a href="/" id="foto">
+            <img src="../static/img/foto-perfil.jpeg" alt="foto-perfil">
+         </a>
+
+         <a href="/voluntariados">
+            VOLUNTARIADO
+         </a>
+      </div>
+
+
+      <div class="conteudo-sobre">
+         <div class="sobre-mim">
+            <h1>SOBRE MIM</h1>
+            <p>Me chamo Mariana Izumi Kuroshima da Silva, 18 anos,
+               moro em São José dos Campos - SP. Comecei por conta própria na programação no último ano do ensino médio,
+               onde vi um pouco de lógica e a linguagem de programação JavaScript.
+               Assim, tomando gosto decidi que queria seguir na carreira, e aqui estou! :)</p>
          </div>
-         
 
-         <div class="conteudo-sobre">
-            <div class="sobre-mim">
-               <h1>SOBRE MIM</h1>
-               <p>Me chamo Mariana Izumi Kuroshima da Silva, 18 anos, 
-                  moro em São José dos Campos - SP. Comecei por conta própria na programação no último ano do ensino médio,
-                  onde vi um pouco de lógica e a linguagem de programação JavaScript. 
-                  Assim, tomando gosto decidi que queria seguir na carreira, e aqui estou! :)</p>
-            </div>            
-                  
-            <img src="../static/img/minha_logotipo-claro.png" alt="logotipo-miks">
-               
-            <div class="historico">
-               <h1>HISTÓRICO ESCOLAR</h1>
-               <p>Aqui irá ficar a linha do tempo horizontal onde mostrará as escolas que frequentei até o momento atual.</p>
-               <ul>
-                  <li>IFSP - São josé dos Campos (ensino médio técnico)</li>
-                  <li>FATEC - São José dos Campos (graduação atual)</li>
-               </ul>     
-            </div>         
-         </div>
-         
-         <div class="contatos">
-            <h3>CONTATOS</h3>
-            <div class="links">
-                  <a href="https://github.com/MariMiks">
-                     <img src="../static/img/github-icon.svg" alt="github-icon" target="_blank">
-                     <p>Github</p>
-                  </a>            
-                 
-                  <a href="mailto:mariana.izumiks@gmail.com?subject:Entrar em contato">
-                     <img src="../static/img/email-icon.svg" alt="email-icon" target="_blank">
-                     <p>E-mail</p>
-                  </a>
-      
-                  <a href="https://www.linkedin.com/in/mariana-izumi-developer/">
-                     <img class="linkedin-icon" src="../static/img/linkedin-icon.svg" alt="linkedin-icon" target="_blank">
-                     <p>Linkedin</p>
-                  </a>
+         <img id="logo" src="../static/img/minha_logotipo-claro.png" alt="logotipo-miks">
+
+
+         <div class="container">
+            <!-- title -->
+            <h2 class="pb-3 pt-2 border-bottom mb-5 text-center">HISTÓRICO ESCOLAR</h2>
+
+            <!--first section-->
+            <div class="row align-items-center how-it-works d-flex">
+               <div class="col-2 text-center bottom d-inline-flex justify-content-center align-items-center">
+                  <div class="circle font-weight-bold">1</div>
+               </div>
+               <div class="col-6">
+                  <h5>IFSP - São José dos Campos</h5>
+                  <p>2019-2021</p>
+                  <p>Técnico em Mecânica Integrado ao Ensino Médio</p>
+               </div>
+            </div>
+
+            <!--path between 1-2-->
+            <div class="row timeline">
+               <div class="col-2">
+                  <div class="corner top-right"></div>
+               </div>
+               <div class="col-8">
+                  <hr />
+               </div>
+               <div class="col-2">
+                  <div class="corner left-bottom"></div>
+               </div>
+            </div>
+
+            <!--second section-->
+            <div class="row align-items-center justify-content-end how-it-works d-flex">
+               <div class="col-6 text-right">
+                  <h5>FATEC - São José dos Campos</h5>
+                  <p>Atualmente</p>
+                  <p>Desenvolvimento de Software Multiplataforma</p>
+               </div>
+               <div class="col-2 text-center full d-inline-flex justify-content-center align-items-center">
+                  <div class="circle font-weight-bold">2</div>
+               </div>
+            </div>
+
+            <!--path between 2-3-->
+            <div class="row timeline">
+               <div class="col-2">
+                  <div class="corner right-bottom"></div>
+               </div>
+               <div class="col-8">
+                  <hr />
+               </div>
+               <div class="col-2">
+                  <div class="corner top-left"></div>
+               </div>
             </div>
          </div>
-      </section>
 
-         <footer class="rodape">
-            <p>2022 @ Mariana Izumi</p>
-         </footer>
-   </body>
+         <div class="contatos">
+            <h3>CONTATOS</h3>
+
+            <div class="links">
+               <a href="https://github.com/MariMiks">
+                  <img src="../static/img/github-icon-128.svg" alt="github-icon" target="_blank">
+                  <p>Github</p>
+               </a>
+
+               <a href="https://www.linkedin.com/in/mariana-izumi-developer/">
+                  <img class="linkedin-icon" src="../static/img/linkedin-icon-128.svg" alt="linkedin-icon"
+                     target="_blank">
+                  <p>Linkedin</p>
+               </a>
+               
+               <a href="mailto:mariana.izumiks@gmail.com?subject:Entrar em contato">
+                  <img src="../static/img/email-icon-128.svg" alt="email-icon" target="_blank">
+                  <p>E-mail</p>
+               </a>
+            </div>
+
+         </div>
+
+      </div>
+   </section>
+
+   <footer class="rodape">
+      <p>2022 @ Mariana Izumi</p>
+   </footer>
+</body>
+
 </html>
