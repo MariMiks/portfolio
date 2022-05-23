@@ -6,7 +6,7 @@
    
 }
 
-.partes{
+.parte1, .parte2{
    display: flex;
    align-items: center;
    justify-content: space-around;
@@ -17,7 +17,7 @@
    border-radius: 1rem;
 }
 
-.partes img{
+.parte1 img, .parte2 img{
    width: 20%;
    border-radius: 100%;
 }
@@ -25,4 +25,20 @@
 .texto{
    width: 50%;
    padding: 0.5rem;
+}
+
+/* inicio responsividade */
+@media (max-width: 600px){
+   .parte1 {
+      flex-direction: column-reverse;
+   }
+
+   .parte2 {
+      flex-direction: column;
+   }
+
+   .texto{
+      width: 90%;
+      text-align: justify;
+   }
 }

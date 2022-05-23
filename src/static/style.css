@@ -18,7 +18,7 @@
 
 
 /*container*/
-body{
+body {
    display: flex;
    position: absolute;
    flex-direction: column;
@@ -31,7 +31,7 @@ body{
 
 
 /*seção de conteúdo*/
-section{
+section {
    background-color: #f8f8f8;
    width: 80%;
    border-radius: 50px;
@@ -40,50 +40,51 @@ section{
 
 
 /* menu */
-.menu{
+.menu {
    display: flex;
    justify-content: space-around;
    align-items: center;
 }
 
-.menu a{
+.menu a {
    padding: 2rem;
-   background-color:#E4BAFE;
+   background-color: #E4BAFE;
    border-radius: 1rem;
    text-decoration: none;
    color: black;
 }
 
-.menu a:hover{
+.menu a:hover {
    text-decoration: none;
    color: #f8f8f8;
    background-color: #9a31db;
 }
 
-#foto{
+#foto {
    width: 25%;
    padding: 0.5rem;
-   background-color: #f8f8f8;
+   background-color: transparent;
    border-radius: 100%;
    transform: translateY(-50%);
 }
 
-#foto img{
+#foto img {
    width: 100%;
    border-radius: 100%;
+   border: 0.4rem solid #f8f8f8;
 }
 
 
 /*contatos*/
-.contatos{
-   display: flex; 
+.contatos {
+   display: flex;
    flex-direction: column;
    align-items: center;
    margin-top: 5rem;
    width: 100%;
 }
 
-.links{
+.links {
    display: flex;
    flex-direction: row;
    justify-content: space-around;
@@ -92,20 +93,63 @@ section{
    margin-top: 0.5rem;
 }
 
-.links a{
+.links a {
    text-decoration: none;
    color: black;
    gap: 1rem;
 }
 
-.links a:hover{
+.links a:hover {
    text-decoration: none;
 }
 
 
 /*footer*/
-.rodape{
-   margin: 1rem;
+.rodape {
+   margin: 0.5rem;
    color: antiquewhite;
 }
 
+
+/* ------ início responsividade ------ */
+
+@media (max-width: 600px) {
+   
+   /* container */
+   section {
+      width: 100%;
+   }
+   
+   /* menu mobile */
+   .menu {
+      flex-direction: column;
+   }
+
+   #foto {
+      width: 30%;
+      order: -1;
+      height: 6rem;
+      transform: translateY(-80%);
+   }
+
+   .menu a{
+      width: 100%;
+      border-radius: 0;
+      margin: 0.5rem;
+      text-align: center;
+   }
+
+   /* contatos mobile */
+   .contatos{
+      background-color: #E4BAFE;
+      margin-bottom: 3rem;
+   }
+
+   .links{
+      flex-direction: column;
+   }
+
+   .links img{
+      width: 10%;
+   }
+}

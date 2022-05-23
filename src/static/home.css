@@ -1,5 +1,5 @@
 /*conteudo-sobre*/
-.conteudo-sobre{
+.conteudo{
    display: flex;
    justify-content: space-around; /*justify-content = eixoX*/
    align-items: center; /*align-items = eixoY*/
@@ -8,14 +8,24 @@
    margin: auto;
 }
 
-.sobre-mim{
-   width: 60%;
-   text-align: justify;
+.conteudo-sobre{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.conteudo-sobre p{
+  font-size: 70%;
 }
 
 .conteudo-sobre #logo{
-   width: 30%;
+  width: 30%;
 }
+.sobre-mim{
+  width: 50%;
+   text-align: justify;
+}
+
 
 .historico{
    width: 80%;
@@ -24,7 +34,7 @@
 
 
 
-/* css da timeline do bootstrap */
+/* ---- css da timeline do bootstrap ---- */
 .circle {
    padding: 13px 20px;
    border-radius: 50%;
@@ -96,3 +106,17 @@
    top: calc(50% - 3px);
  }
  
+ /* ---- fim timeline bootstrap ---- */
+
+ /* ---- início responsividade ---- */
+@media (max-width: 600px){
+  .conteudo-sobre{
+    flex-direction: column;
+  }
+
+  .sobre-mim{
+    width: 85%;
+  }
+}
+
+  /* ---- fim responsividade ---- */
