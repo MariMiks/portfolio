@@ -113,6 +113,11 @@
 @media (max-width: 630px){
   .conteudo-sobre{
     flex-direction: column;
+    margin-top: 5rem;
+  }
+
+  .conteudo-sobre #logo{
+    width: 50%;
   }
 
   .sobre-mim{
