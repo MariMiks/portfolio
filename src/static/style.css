@@ -25,7 +25,7 @@ body {
    flex-direction: column;
    justify-content: center;
    align-items: center;
-   background: url("../static/img/background-portfolio.png");
+   background-image: url("../static/img/background-portfolio.png");
    background-size: cover;
    font-family: 'Roboto Flex', sans-serif;
 }
@@ -70,9 +70,11 @@ section {
 }
 
 #foto img {
+   filter: saturate(140%);
    width: 100%;
    border-radius: 100%;
    border: 0.4rem solid #f8f8f8;
+   background-color: #f8f8f8;
 }
 
 
@@ -91,7 +93,11 @@ section {
    justify-content: space-around;
    text-align: center;
    width: 80%;
-   margin-top: 0.5rem;
+   margin-top: 1rem;
+}
+
+.links img{
+   width: 3rem;
 }
 
 .links a {
@@ -102,6 +108,7 @@ section {
 
 .links a:hover {
    text-decoration: none;
+   color: #9a31db;
 }
 
 
@@ -114,7 +121,7 @@ section {
 
 /* ------ início responsividade ------ */
 
-@media (max-width: 600px) {
+@media (max-width: 660px) {
    
    /* container */
    section {

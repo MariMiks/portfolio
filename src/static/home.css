@@ -20,6 +20,7 @@
 
 .conteudo-sobre #logo{
   width: 30%;
+  background-color: none;
 }
 .sobre-mim{
   width: 50%;
@@ -109,7 +110,7 @@
  /* ---- fim timeline bootstrap ---- */
 
  /* ---- início responsividade ---- */
-@media (max-width: 600px){
+@media (max-width: 630px){
   .conteudo-sobre{
     flex-direction: column;
   }
