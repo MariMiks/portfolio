@@ -21,7 +21,7 @@
 </h2>
 
 
-Este projeto foi realizado nas aulas de Design Digital para demonstrar um pouco sobre mim. Implementar o que sei fazer até agora em questão de Front-End e também proporcionar novos desafios. Os critérios exigidos para a conclusão deste está na pasta `doc` chamado *regras*.
+Este projeto foi realizado nas aulas de Design Digital para demonstrar um pouco sobre mim. Implementar o que sei fazer até agora em questão de Front-End e também proporcionar novos desafios.
 
 # Execução <a id="executar"></a>
 Para conseguir rodar este portfolio na sua máquina local, é preciso seguir os seguintes passos:
