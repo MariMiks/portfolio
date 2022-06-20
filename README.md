@@ -1,7 +1,7 @@
 # Portfolio
 
 <p align=center>
-  <img src='src/static/minha_logotipo-claro.png' width=190/>
+  <img src='static/minha_logotipo-claro.png' width=190/>
 </p>
 
 >  **Autora:** Mariana Izumi Kuroshima da Silva
@@ -65,3 +65,6 @@ Nesta primeira entrega foi proposto o desenvolvimento de um protótipo navegáve
 
 ## Entrega 2
 Para esta entrega, foi feito a navegabilidade com o Flask e terminar de estruturar o site, com responsabilidade e todos os atributos propostos no wireframe.
+
+## Entrega 3
+Subindo o portfolio para o heroku
