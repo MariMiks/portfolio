@@ -24,6 +24,11 @@
 Este projeto foi realizado nas aulas de Design Digital para demonstrar um pouco sobre mim. Implementar o que sei fazer até agora em questão de Front-End e também proporcionar novos desafios.
 
 # Execução <a id="executar"></a>
+
+## Entrar pelo link:
+LINK VERCEL
+
+## Localmente:
 Para conseguir rodar este portfolio na sua máquina local, é preciso seguir os seguintes passos:
 
 1. Baixar a `tag` da última versão disponibilizada no repositório
