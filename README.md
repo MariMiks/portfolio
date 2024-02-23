@@ -26,7 +26,9 @@ Este projeto foi realizado nas aulas de Design Digital para demonstrar um pouco 
 # Execução <a id="executar"></a>
 
 ## Entrar pelo link:
-LINK VERCEL
+<a href="https://portfolio-marianaizumi.vercel.app/">Link para acessar o portfolio</a>
+
+
 
 ## Localmente:
 Para conseguir rodar este portfolio na sua máquina local, é preciso seguir os seguintes passos:
