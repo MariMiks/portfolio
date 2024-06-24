@@ -1,7 +1,7 @@
 # Portfolio
 
 <p align=center>
-  <img src='static/minha_logotipo-claro.png' width=190/>
+  <img src='static/img/logotipo.png' width=190/>
 </p>
 
 >  **Autora:** Mariana Izumi Kuroshima da Silva
